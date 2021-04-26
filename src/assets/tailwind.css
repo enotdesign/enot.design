@@ -1,0 +1,28 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+
+
+@layer components {
+    .box-techologies{
+        @apply flex justify-center p-3 border-2 border-blueborder rounded-xl m-2 w-16;
+    }
+
+    .box-services{
+        @apply flex flex-col md:flex-row  md:pb-10 p-6 border rounded-md bg-thirtbg border-bordercolor
+    }
+
+    .titulos {
+        @apply font-bold text-3xl;
+    }
+    .servicestip{
+        @apply text-center inline p-2;
+    }
+
+     
+}
+

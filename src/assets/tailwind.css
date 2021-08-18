@@ -4,10 +4,13 @@
 
 @tailwind utilities;
 
-
-
-
 @layer components {
+    .titulos {
+        @apply font-bold text-2xl pb-6 md:text-4xl;
+    }
+    .subtitulos{
+        @apply text-lightblue text-xl pb-6 md:text-2xl;
+    }
     .box-techologies{
         @apply flex justify-center p-3 border-2 border-blueborder rounded-xl m-2 w-16;
     }
@@ -16,11 +19,12 @@
         @apply flex flex-col md:flex-row  md:pb-10 p-6 border rounded-md bg-thirtbg border-bordercolor
     }
 
-    .titulos {
-        @apply font-bold text-3xl;
-    }
     .servicestip{
         @apply text-center inline p-2;
+    }
+
+    .enot-form{
+        @apply m-2 h-16 rounded-lg;
     }
 
      

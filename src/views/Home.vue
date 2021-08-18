@@ -4,7 +4,7 @@
     <TheSeed/>
     <Services/>
     <Proyects/>
-    <Recomendations/>
+    <!-- <Recomendations/> -->
     <Contact/>
     <div class="quote px-5 p-10 bg-blueborder">
       <p class="italic">"El que cree que cuesta caro un profesional, no sabe lo caro que cuesta un incompetente."</p>
@@ -52,7 +52,7 @@
   import TheSeed from '@/components/TheSeed.vue'  
   import Proyects from '@/components/Proyects.vue'
   import Services from '@/components/Services.vue'
-  import Recomendations from '@/components/Recomendations.vue'
+  // import Recomendations from '@/components/Recomendations.vue'
   import Contact from '@/components/Contact.vue'
 
   export default {
@@ -63,7 +63,7 @@
       TheSeed,
       Proyects,
       Services,
-      Recomendations,
+      // Recomendations,
       Contact,
 
     }

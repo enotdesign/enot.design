@@ -24,7 +24,7 @@
     }
 
     .enot-form{
-        @apply m-2 h-16 rounded-lg;
+        @apply h-16 rounded-lg border bg-thirtbg border-bordercolor;
     }
 
      
